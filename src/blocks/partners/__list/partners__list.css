@@ -1,0 +1,23 @@
+.partners__list{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  margin-top: 30px;
+  
+}
+
+@media (max-width: 800px){
+	.partners__list{
+    gap: 20px;
+	}
+}
+
+
+@media (max-width: 589px){
+	.partners__list{
+    flex-direction: column;
+	  align-items: center;
+    gap: 20px;
+	}
+}

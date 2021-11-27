@@ -1,0 +1,10 @@
+@import url(./__title/partners__title.css);
+@import url(./__list/partners__list.css);
+
+.partners{
+  margin: 70px auto 0;
+  max-width: 1170px;
+  line-height: 57px;
+  padding: 0 20px ;
+  min-height: 700px;
+}

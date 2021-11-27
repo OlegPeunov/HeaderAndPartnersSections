@@ -1,0 +1,18 @@
+@import url(./__name/user-info__name.css);
+@import url(./__photo/user-info__photo.css);
+
+.user-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-left: #EBEBF1 1px solid;
+  margin-right: 20px;
+  
+}
+
+
+@media (max-width: 560px){
+	.user-info{
+    display: none;
+	}
+}

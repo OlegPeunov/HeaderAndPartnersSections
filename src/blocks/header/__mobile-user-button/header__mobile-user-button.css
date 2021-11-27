@@ -1,0 +1,17 @@
+.header__mobile-user-button{
+  margin: 26px 26px 0 0;
+  height: 26px;
+  width: 26px;
+  border: none;
+  background-color: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 560px){
+	.header__mobile-user-button{
+    display: block;
+	}
+}

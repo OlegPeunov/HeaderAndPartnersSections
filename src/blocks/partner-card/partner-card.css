@@ -1,0 +1,40 @@
+@import url(./__logo/partner-card__logo.css);
+
+.partner-card{
+  display: flex;
+  border: #EBEBF1 1px solid;
+  border-radius: 5px;
+  max-width: 270px;
+  height: 120px;
+  width: calc(25%);
+  min-width: 230px;
+  cursor: pointer;
+  
+  
+}
+
+.partner-card:hover{
+  background-color: white;
+}
+
+
+@media (max-width: 934px){
+	.partner-card{
+		width: calc(30%);
+	}
+}
+
+
+@media (max-width: 764px){
+	.partner-card{
+		width: calc(30%);
+	}
+}
+
+@media (max-width: 589px){
+	.partner-card{
+		width: 335px;
+    height: 140px;
+	}
+}
+

@@ -1,0 +1,16 @@
+.form__serch-box{
+  height: 38px;
+  max-width: 900px;
+  border: none;
+  outline: none;
+  
+  
+}
+
+@media (max-width: 560px){
+	.form__serch-box{
+    height: 27px;
+
+    
+	}
+}

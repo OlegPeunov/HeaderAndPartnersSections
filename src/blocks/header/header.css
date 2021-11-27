@@ -1,0 +1,22 @@
+@import url(./__mobile-user-button/header__mobile-user-button.css);
+@import url(./__mobile-user-icon/header__mobile-user-icon.css);
+
+.header {
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-shadow: 0px 3px 10px #EBEBF1;
+  background-color: white;
+
+  justify-content: center;
+
+}
+
+
+@media (max-width: 560px){
+	.header{
+    justify-content: space-between;
+    height: 105px;
+	}
+}
